@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite name="MakeMyTrip Automation Suite" data-provider-thread-count="8" parallel="false">
+    <test verbose="2" name="MMT_UI_Automation">
+        <classes>
+            <!-- This is the main runner class from GemJar that triggers Cucumber feature execution -->
+            <class name="com.gemini.gemjar.bdd.GemJarCucumberBase"/>
+        </classes>
+    </test>
+</suite>

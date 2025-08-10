@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="CopilotDiffPersistence">
+    <option name="pendingDiffs">
+      <map>
+        <entry key="$PROJECT_DIR$/src/test/java/com/example/automation/stepdefinitions/ExampleSteps.java">
+          <value>
+            <PendingDiffInfo>
+              <option name="filePath" value="$PROJECT_DIR$/src/test/java/com/example/automation/stepdefinitions/ExampleSteps.java" />
+              <option name="originalContent" value="package com.example.automation.stepdefinitions;&#10;&#10;import io.cucumber.java.en.Given;&#10;import io.cucumber.java.en.And;&#10;&#10;public class ExampleSteps {&#10;    @Given(&quot;I open the browser&quot;)&#10;    public void iOpenTheBrowser() {&#10;        // Code to open the browser&#10;    }&#10;&#10;    @And(&quot;I navigate to {string}&quot;)&#10;    public void iNavigateToUrl(String url) {&#10;        // Code to navigate to the given URL&#10;    }&#10;}&#10;" />
+              <option name="updatedContent" value="package com.example.automation.stepdefinitions;&#10;&#10;import io.cucumber.java.en.Given;&#10;import io.cucumber.java.en.And;&#10;import org.openqa.selenium.WebDriver;&#10;import org.openqa.selenium.chrome.ChromeDriver;&#10;&#10;public class ExampleSteps {&#10;    private WebDriver driver;&#10;&#10;    @Given(&quot;I open the browser&quot;)&#10;    public void iOpenTheBrowser() {&#10;        // Set path to chromedriver if needed&#10;        // System.setProperty(&quot;webdriver.chrome.driver&quot;, &quot;path/to/chromedriver.exe&quot;);&#10;        driver = new ChromeDriver();&#10;    }&#10;&#10;    @And(&quot;I navigate to {string}&quot;)&#10;    public void iNavigateToUrl(String url) {&#10;        driver.get(url);&#10;    }&#10;}" />
+            </PendingDiffInfo>
+          </value>
+        </entry>
+      </map>
+    </option>
+  </component>
+</project>

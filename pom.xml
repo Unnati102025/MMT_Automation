@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project xmlns="http://maven.apache.org/POM/4.0.0"
+         xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+         xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/xsd/maven-4.0.0.xsd">
+    <modelVersion>4.0.0</modelVersion>
+
+    <groupId>org.example</groupId>
+    <artifactId>gemjar_jewel_integration</artifactId>
+    <version>1.0-SNAPSHOT</version>
+
+    <properties>
+        <maven.compiler.source>21</maven.compiler.source>
+        <maven.compiler.target>21</maven.compiler.target>
+        <project.build.sourceEncoding>UTF-8</project.build.sourceEncoding>
+
+        <!-- Dependency Versions -->
+        <selenium.version>4.29.0</selenium.version>
+        <webdrivermanager.version>5.7.0</webdrivermanager.version>
+        <testng.version>7.10.2</testng.version>
+        <cucumber.version>7.21.1</cucumber.version>
+        <rest-assured.version>5.5.5</rest-assured.version>
+        <surefire.plugin.version>3.5.3</surefire.plugin.version>
+        <slf4j.version>2.0.17</slf4j.version>
+        <junit.version>4.13.2</junit.version>
+    </properties>
+
+    <dependencies>
+        <dependency>
+            <groupId>com.gemecosystem.gemjar</groupId>
+            <artifactId>gemjar-core</artifactId>
+            <version>1.4.1</version>
+        </dependency>
+    </dependencies>
+
+</project>
